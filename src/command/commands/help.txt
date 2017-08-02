@@ -1,0 +1,37 @@
+/set_alias [new_alias]
+    Pick a new alias to be identified by.
+
+/broadcast [message]
+    Sends a message to the chatroom.
+    Default if no command specified.
+
+/help
+    What you're reading right now.
+          
+/create [chatroom_name]
+    Crates a chatroom with specified name.
+    Chatroom is joined, you are made admin.
+
+/display_users
+    Displays list of users in current room.
+
+/display_rooms
+    Displays list of rooms on the server.
+
+/join [chatroom_name]
+    Joins a chatroom of specified name.
+    
+/leave
+    Leaves the current chatroom.
+
+/block [user_alias]
+    Blocks user from chatroom.
+    Only works if you're chatroom admin.
+
+/unblock [user_alias]
+    Unblocks user from chatroom.
+    Only works if you're chatroom admin.
+
+/delete
+    Deletes the current chatroom.
+    Only works if you're chatroom admin.
